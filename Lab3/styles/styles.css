@@ -8,6 +8,9 @@
     text-decoration-thickness: 4px;
 } */
 
+#pageTitle{
+    color: orange;
+}
 .blue{
     color: blue;
 }
