@@ -1,0 +1,29 @@
+* {
+    outline: 1px solid magenta;
+}
+
+:root {
+    font-size: 20px;
+}
+#main-container {
+    width: 500px;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+}
+#main-container div {
+    background-color: bisque;
+    padding: 15px;
+    min-width: 500px;
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
