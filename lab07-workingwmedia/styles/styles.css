@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+#maincontainer{
+    background-color: aqua;
+    width: 600px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/media/unnamed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
