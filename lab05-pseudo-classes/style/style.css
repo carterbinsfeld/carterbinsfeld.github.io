@@ -1,0 +1,27 @@
+:root{
+    font-size: 24pt;
+}
+body{
+    margin: 0;
+}
+div{
+    width: 150px;
+    height: 150px;
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div:nth-of-type(1){
+    background-color: lightcoral;
+    box-sizing: content-box;
+    padding: 200px;
+    width: 100vw;
+}
+div:nth-of-type(2){
+    background-color: lightgreen;
+    box-sizing: border-box;
+    padding: 200px;
+    width: 100vw;
+}

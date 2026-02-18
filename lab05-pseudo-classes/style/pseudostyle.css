@@ -1,0 +1,47 @@
+:root{
+    font-size: 18pt;
+}
+*{
+    outline: 2px solid red;
+}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header, nav, main, footer{
+
+}
+header{
+    background-color: purple;
+    height: 200px;
+}
+nav{
+    background-color: rgb(0, 92, 128);
+    height: 100px;
+}
+nav a{
+    display: inline-block;
+    padding: 1rem;
+}
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    background-color: rgb(0, 128, 73);
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    background-color: rgb(128, 119, 0);
+}
+aside{
+    background-color: rgb(0, 128, 17);
+    width: 400px;
+}
+article{
+    background-color: rgb(53, 0, 128);
+    flex-grow: 1;
+}
