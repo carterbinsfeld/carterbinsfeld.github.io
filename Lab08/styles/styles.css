@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 600px;
+    height: 1000px;
+    background-color: rgb(177, 156, 129);
+}
+#one{
+
+}
+#o{
+    font-family: "greycliff-cf", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+}
+#p{
+
+}
+#el{
+
+}
+#lissitzky{
+
+}
+#roun{
+
+}
+#kestnermappe{
+
+}
