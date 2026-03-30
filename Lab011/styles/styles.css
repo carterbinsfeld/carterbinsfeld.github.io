@@ -1,0 +1,71 @@
+.circle-ease {
+
+    position: absolute;
+    left: 400px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.25s ease-in-out;
+    animation-name: ballsKissing;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.circle-linear {
+
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.25s linear;
+    animation-name: ballsKissing;
+    animation-duration: 0.3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5;
+}
+
+.red {
+    background-color: #A4133C;
+}
+
+.black {
+    background-color: #1A1A1A;
+}
+
+.circle:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.circle-ease:hover {
+    width: 300px;
+    height: 300px;
+    transition-timing-function: ease;
+}
+
+.circle-linear:hover {
+    width: 300px;
+    height: 300px;
+    transition-timing-function: linear;
+}
+.ball {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+@keyframes ballsKissing {
+
+    0% {
+
+        transform: translateY(0px);
+
+    }
+
+    100%{
+
+        transform: translateY(50vw) rotate(120deg);
+
+    }
+}
