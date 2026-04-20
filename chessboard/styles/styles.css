@@ -1,0 +1,69 @@
+#main-container, #chessboard, #chessboard > div:nth-of-type(1), #chessboard > div:nth-of-type(1) > div , #chessboard > div:nth-of-type(2), #chessboard > div:nth-of-type(2) > div, #play-area, #play-area > div, #play-area > div > div {
+    display: flex;
+}
+
+#main-container, #chessboard > div:nth-of-type(1) > div, #chessboard > div:nth-of-type(2) > div, #play-area > div > div {
+    justify-content: center;
+    align-items: center;
+}
+
+#chessboard > div:nth-of-type(1) > div, #chessboard > div:nth-of-type(2) > div, #play-area > div {
+    flex-grow: 1;
+}
+
+body {
+    margin: 0;
+}
+#chessboard > div:nth-of-type(1) {
+    width: 100%;
+    height: 5%;
+}
+
+#chessboard > div:nth-of-type(1) > div:nth-of-type(1) {
+    flex-grow: 0.44;
+}
+
+#chessboard > div:nth-of-type(2) {
+    flex-direction: column;
+    width: 5%;
+    height: 95%;
+}
+#play-area div:nth-of-type(even) div:nth-of-type(even), #play-area div:nth-of-type(odd) div:nth-of-type(odd), #chessboard > div:nth-of-type(1) > div:nth-of-type(odd), #chessboard > div:nth-of-type(2) > div:nth-of-type(even) {
+    background-color: rgb(191, 15, 15);
+}
+#play-area div:nth-of-type(even) div:nth-of-type(even):hover, #play-area div:nth-of-type(odd) div:nth-of-type(odd):hover, #chessboard > div:nth-of-type(1) > div:nth-of-type(odd):hover, #chessboard > div:nth-of-type(2) > div:nth-of-type(even):hover {
+    background-color: rgb(53, 120, 27);
+}
+#main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(75, 13, 13);
+} 
+#chessboard {
+    flex-wrap: wrap;
+    width: 90vw;
+    aspect-ratio: 1 / 1;
+    max-width: 90vh;
+    max-height: 90vh;
+    background-color: rgb(255, 98, 0);
+    outline: 5px solid black;
+}
+#play-area {
+    flex-direction: column;
+    width: 95%;
+    height: 95%;
+}
+#play-area > div {
+    height: 12.5%;
+    transition: transform 0.2s ease-in-out;
+}
+
+#play-area > div > div {
+    width: 12.5%; 
+    transition: transform 0.2s ease-in-out; 
+}
+
+#play-area > div > div:hover {
+    transform: scale(1.3);
+    background-color: seagreen;
+}

@@ -6,30 +6,93 @@ body{
 }
 main{
     width: 600px;
-    height: 1000px;
+    height: 850px;
     background-color: rgb(177, 156, 129);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#one{
 
+#one {
+    position: absolute;
+    color: rgb(46, 35, 35);
+    font-family: "txc-pearl", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 950px;
+    top: -15%;
+    left: 6%;
 }
-#o{
+
+#O {
+    position: absolute;
+    color: rgb(230, 223, 215);
     font-family: "greycliff-cf", sans-serif;
-font-weight: 900;
-font-style: normal;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 250px;
+    bottom: 23.5%;
+    right: 41.5%;
+}
+
+#P {
+    position: absolute;
+    color: rgb(46, 35, 35);
+    font-family: "elizeth-condensed", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 450px;
+    right: 11%;
+    transform: rotate(-45deg);
+    bottom: 18%;
+
 
 }
-#p{
+
+#El {
+    position: absolute;
+    font-family: "termina", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:60px ;
+    color: rgb(46, 35, 35);
+    top: 16%;
+    right: 32%
+    
+}
+
+#lissitzky { 
+    position: absolute;
+    font-family: "termina", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:16px ;
+    color: rgb(46, 35, 35);
+    top: 25.5%;
+    right: 14%;
+    transform: rotate(35deg); 
 
 }
-#el{
 
+#roun {
+    position: absolute;
+    background-color:rgb(177, 162, 143);
+    font-family: "elizeth-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    right: 27%;
+    bottom: 63%;
 }
-#lissitzky{
 
-}
-#roun{
-
-}
-#kestnermappe{
-
+#kestnermappe {
+    position: absolute;
+    color: rgb(46, 35, 35);
+    font-family: "kegger-us", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    bottom: 13.42%;
+    left: 36.5%;
 }
