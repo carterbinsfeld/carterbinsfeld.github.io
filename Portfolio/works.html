@@ -1,52 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Works — Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-<link href="/Portfolio/styles/portfolio.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div class="bg"></div>
-
 <main class="works-page">
-  <p class="works-page-title">Selected Works</p>
 
-  <div class="wheel-wrap" id="wheelWrap">
-    <!-- SVG wheel rendered by JS -->
-    <div class="centre-label" id="centreLabel"><span>Hover a work</span></div>
-    <div class="desc-card" id="descCard">
-      <div class="desc-title" id="descTitle"></div>
-      <div class="desc-text"  id="descText"></div>
+  <p class="works-page-title">Selected Works</p>
+  <div class="cards-stack">
+ 
+    <a class="card" href="ironstone.html">
+      <div class="card-img" style="background-image:url('img/ironstone/ironstone\ pfp.png');"></div>
+      <div class="card-content">
+        <span class="card-index">01</span>
+        <span class="card-title">Ironstone Tile</span>
+        <span class="card-sub">Branding</span>
+      </div>
+    </a>
+ 
+    <a class="card" href="speech.html">
+      <div class="card-img" style="background-image:url('img/speech-logo/logo\ offset\ 1.png');"></div>
+      <div class="card-content">
+        <span class="card-index">02</span>
+        <span class="card-title">High School Speech Team</span>
+        <span class="card-sub">Logo Design</span>
+      </div>
+    </a>
+ 
+    <a class="card" href="podcast-booklet.html">
+      <div class="card-img" style="background-image:url('img/podcast-book/podcast-book-horiz.png');"></div>
+      <div class="card-content">
+        <span class="card-index">03</span>
+        <span class="card-title">Podcast Booklet</span>
+        <span class="card-sub">Typography</span>
+      </div>
+    </a>
+ 
+    <a class="card" href="movie-poster.html">
+      <div class="card-img" style="background-image:url('img/movie-poster/P04_Binsfeld_Carter.jpg')"></div>
+      <div class="card-content">
+        <span class="card-index">04</span>
+        <span class="card-title">Movie Poster</span>
+        <span class="card-sub">Photoshop Exercise</span>
+      </div>
+    </a>
+ 
+    <a class="card" href="typography-booklet.html">
+      <div class="card-img" style="background-image:url('img/type-booklet/P04_Binsfeld_Carter.png')"></div>
+      <div class="card-content">
+        <span class="card-index">05</span>
+        <span class="card-title">Typographer Booklet</span>
+        <span class="card-sub">Typography</span>
+      </div>
+    </a>
+ 
+  </div>
+
+  <div class="centre-preview">
+    <div class="centre-preview-img" style="background-image:url('img/ironstone/ironstone\ pfp.png');"></div>
+    <div class="centre-preview-label">
+      <h2>Ironstone Tile & Interiors</h2>
+      <p>Logo and Branding for Father-Son construction company.</p>
     </div>
   </div>
-  <div class="gallery">
-  <div class="photo photo-1">
-    <img src="https://images.unsplash.com/photo-1461534204375-bd3ba51cca78?w=500&h=500&q=80&fit=crop" alt="" />
+
+  <div class="centre-preview">
+    <div class="centre-preview-img" style="background-image:url('img/speech-logo/logo\ offset\ 1.png');"></div>
+    <div class="centre-preview-label">
+      <h2>PACT Charter School Speech Team</h2>
+      <p>Logo Design to be used on social media and apparel.</p>
+    </div>
   </div>
-  <div class="photo photo-2">
-    <img src="https://images.unsplash.com/photo-1423483641154-5411ec9c0ddf?w=500&h=500&q=80&fit=crop" alt="" />
+
+  <div class="centre-preview">
+    <div class="centre-preview-img" style="background-image:url('img/podcast-book/podcast-book-horiz.png');"></div>
+    <div class="centre-preview-label">
+      <h2>"This American Life" Podcast Booklet</h2>
+      <p>Typography exercise translating audio into appealing typography.</p>
+    </div>
   </div>
-  <div class="photo photo-3">
-    <img src="https://images.unsplash.com/photo-1464454709131-ffd692591ee5?w=500&h=500&q=80&fit=crop" alt="" />
+
+  <div class="centre-preview">
+    <div class="centre-preview-img" style="background-image:url('img/movie-poster/P04_Binsfeld_Carter.jpg')"></div>
+    <div class="centre-preview-label">
+      <h2>Movie Poster</h2>
+      <p>Early satirical photoshop exercise.</p>
+    </div>
   </div>
-  <div class="photo photo-4">
-    <img src="https://images.unsplash.com/photo-1479064578521-1eebbb96eca1?w=500&h=500&q=80&fit=crop" alt="" />
+
+  <div class="centre-preview">
+    <div class="centre-preview-img" style="background-image:url('img/type-booklet/P04_Binsfeld_Carter.png')"></div>
+    <div class="centre-preview-label">
+      <h2>Typographer Booklet</h2>
+      <p>Typography hierarchy exercise on important typographers.</p>
+    </div>
   </div>
-    <div class="photo photo-5">
-    <img src="https://images.unsplash.com/photo-1479064578521-1eebbb96eca1?w=500&h=500&q=80&fit=crop" alt="" />
-  </div>
-</div>
+
 </main>
 
 <nav>
   <a href="portfolio.html">Home</a>
-  <a href="#" class="active" onclick="return false;">Works</a>
+  <a href="works.html" class="active">Works</a>
   <a href="#">About</a>
   <a href="#">Contact</a>
 </nav>
+
 
 </body>
 </html>

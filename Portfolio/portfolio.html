@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-<link href="/Portfolio/styles/portfolio.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -95,18 +95,11 @@
 </main>
 
 <nav>
-  <a href="#" class="active" onclick="activate(this); return false;">Home</a>
-  <a href="#" onclick="activate(this); return false;">Works</a>
-  <a href="#" onclick="activate(this); return false;">About</a>
-  <a href="#" onclick="activate(this); return false;">Contact</a>
+  <a href="#" class="active">Home</a>
+  <a href="works.html" >Works</a>
+  <a href="#" >About</a>
+  <a href="#" >Contact</a>
 </nav>
-
-<script>
-  function activate(el) {
-    document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-    el.classList.add('active');
-  }
-</script>
 
 </body>
 </html>

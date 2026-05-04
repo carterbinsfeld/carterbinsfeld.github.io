@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ironstone Tile Co.</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <div class="bg"></div>
+ 
+<!--
+  Ghost image background — blurred, left side opposite the nav.
+  Replace the background property with your image:
+    style="background-image:url('your-image.jpg')"
+-->
+<div class="bg-ghost" style="background-image:url('img/ironstone/ironstone\ pfp.png');"></div>
+ 
+<main class="page">
+ 
+  <a class="back-link" href="works.html">Back to Works</a>
+ 
+  <header class="project-header">
+    <p class="project-eyebrow">Branding</p>
+    <h1 class="project-title">Ironstone Tile & Interiors</h1>
+    <div class="project-rule"></div>
+  </header>
+ 
+  <div class="hero-image">
+    <!--
+      Replace the background in .hero-image-inner with your image:
+        style="background-image:url('your-hero.jpg')"
+    -->
+    <div class="hero-image-inner" style="background-image:url('img/ironstone/ironstone\ tile\ and\ interiors.png');"></div>
+  </div>
+ 
+  <div class="gallery-row">
+ 
+    <div class="gallery-img">
+      <div class="gallery-img-inner" style="background-image:url('img/ironstone/ironstone\ tile\ and\ interiors.png')"></div>
+    </div>
+ 
+    <div class="gallery-img">
+      <div class="gallery-img-inner" style="background-image:url('img/ironstone/ironstone\ tile\ and\ interiors.png')"></div>
+    </div>
+ 
+    <div class="gallery-img">
+      <div class="gallery-img-inner" style="background-image:url('img/ironstone/ironstone\ tile\ and\ interiors.png')"></div>
+    </div>
+ 
+    <div class="project-description">
+      <p class="desc-label">About this project</p>
+      <p class="desc-body">
+        This project for Ironstone Tile Co. had a very clear direction from the get-go. Taking an important piece of the company's family history, the flag associated with their roots, and creating something that felt both familiar and more inline with what they do. This led to a clean, tiled “wheel” logo, which alludes back to their history. Centering this graphic around a golden color scheme, alluding to the “gold” quality of their work, allowed this design to stand out in a crowd. Finally, pairing a bold, no-nonsense typeface with sharp black boxes harkens back to the tile-setting of the company while allowing easy readability.
+      </p>
+      <div class="desc-meta">
+        <div class="desc-meta-item">
+          <span>Year</span>
+          <span>2023</span>
+        </div>
+        <div class="desc-meta-item">
+          <span>Client</span>
+          <span>Ironstone Tile Co.</span>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Gallery image 4 — wide, spans columns 2–3 beneath description -->
+    <div class="gallery-img">
+      <!--  Replace background with: style="background-image:url('img4.jpg')"  -->
+      <div class="gallery-img-inner" style="background:linear-gradient(135deg,#7a3800,#3d1200)"></div>
+    </div>
+ 
+  </div><!-- /gallery-row -->
+ 
+</main>
+
+
+<nav>
+  <a href="portfolio.html">Home</a>
+  <a href="works.html" class="active">Works</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
 </body>
 </html>
